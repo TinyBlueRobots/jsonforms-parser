@@ -1,0 +1,9 @@
+[tools]
+golangci-lint = "latest"
+gotestsum = "latest"
+
+[tasks.lint]
+run = "golangci-lint run --fix ./..."
+
+[tasks.test]
+run = "gotestsum"
