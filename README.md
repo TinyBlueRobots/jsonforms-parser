@@ -60,7 +60,3 @@ jsonforms.Walk(ast.UISchema, &MyVisitor{})
 ## Use Cases
 
 Build custom renderers, transform schemas, validate structures, generate docs, or convert between form systems.
-
-## License
-
-MIT
